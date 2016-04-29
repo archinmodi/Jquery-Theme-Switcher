@@ -34,7 +34,6 @@ Jquery Theme Switcher( JTS ) is open source plugin.
                     BoxBGimages: 'http://www.psdgraphics.com/file/light-brown-floral-pattern.jpg'
                 });              
             });
-            
         &#60;/script&#62;
         
 &#60;/body&#62;
