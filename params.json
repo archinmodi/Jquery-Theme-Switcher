@@ -1,5 +1,5 @@
 {
-  "name": "Jquery-theme-changer",
+  "name": "jquery Theme Switcher",
   "tagline": "jquery Theme Changer, selecet color and change your theme, easy to use, jquery theme changer powered by Archin Modi.",
   "body": "# Welcome\r\n***\r\nJuqery-Theme-Changer(JTC) is Developed By Archin modi. JTC is easy to use and easy to step,Archin modi is computer Engineer Student.\r\n\r\n# How to Use Juqery-Theme-Changer(JTC)\r\n***\r\nNow you Can first Add To File (JTC.JS , JTC.CSS) and Jquery.min.js file is required.\r\n\r\n# Step : 1\r\n<pre>\r\n     &#60;link href=\"JTC.css\" rel=\"stylesheet\" /&#62;\r\n     &#60;script src=\"JTC.js\"&#62;&#60;/script&#62;\r\n</pre> \r\n# Step : 2\r\n<pre>\r\n     &#60;body&#62;\r\n        &#60;div id=\"Layout_Skin\"&#62;\r\n          /*Write Your Code Here...*/\r\n        &#60;/div&#62;\r\n     &#60;/body&#62;\r\n</pre>\r\n# Step : 3\r\n<pre>\r\n      $(document).ready(function () {\r\n                $('body').Archin({\r\n                    backgroundColor: \"Enter Your Color\",\r\n                    TextColor: 'Enter Your Color',\r\n                    ButtonbackgroundColor: 'Enter Your Color',\r\n                    BoxBGimages: 'image Path'\r\n                });              \r\n            });\r\n</pre>",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
