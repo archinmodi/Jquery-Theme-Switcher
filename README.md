@@ -35,3 +35,7 @@ Jquery Theme Switcher( JTS ) is open source plugin.
 &#60;/html&#62;
 
 </pre>
+
+# Demo
+
+http://www.archin-modi.in
