@@ -28,8 +28,7 @@
 }
 .onoffswitch-checkbox {
     display: none;
-        margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 40px;
 }
 .onoffswitch-label {
     display: block; overflow: hidden; cursor: pointer;
