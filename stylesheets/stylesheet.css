@@ -57,7 +57,7 @@ a {
   color: #fff;
   text-align: center;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(http://www.hdwallpapers.in/walls/green_planet-HD.jpg); }
 
 @media screen and (min-width: 64em) {
   .page-header {
