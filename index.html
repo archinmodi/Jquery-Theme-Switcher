@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+     <link rel="stylesheet" type="text/css" href="juery.Theme.Switcher.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
@@ -14,8 +15,7 @@
       <h1 class="project-name">jquery Theme Switcher ( JTS )</h1>
       <h2 class="project-tagline">jquery Theme Changer, selecet color and change your theme, easy to use, jquery theme changer powered by Archin Modi.</h2>
       <a href="https://github.com/Archin-modi/Jquery-Theme-Switcher" class="btn">View on GitHub</a>
-      <a href="https://github.com/Archin-modi/Jquery-Theme-Switcher/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/Archin-modi/Jquery-Theme-Switcher/tarball/master" class="btn">Download .tar.gz</a>
+      <a href="" class="btn">Demo</a>
     </section>
 
     <section class="main-content">
@@ -73,7 +73,18 @@
       </footer>
 
     </section>
-
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>  
+    <script src="juery.Theme.Switcher.js"></script>   
+        <script type="text/javascript">                      
+            $(document).ready(function () {
+                $('body').Archin({
+                    backgroundColor: "White",
+                    TextColor: 'Black',
+                    ButtonbackgroundColor: 'white',
+                    BoxBGimages: 'http://43ci6u1cc9m72hp4c23z0nf1.wpengine.netdna-cdn.com/wp-content/uploads/2012/05/Screen-Shot-2012-05-21-at-9.40.23-PM.png'
+                });              
+            });
+        </script>
   
   </body>
 </html>
