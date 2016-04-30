@@ -1,5 +1,3 @@
-# Under Construction
-
 # Jquery Theme Switcher
 jquery Theme Changer, selecet color and change your theme, easy to use, jquery theme changer powered by Archin Modi.
 
@@ -24,6 +22,6 @@ Jquery Theme Switcher( JTS ) is open source plugin.
         
 </pre>
 
-# Documentation
+# Demo
 
  http://archin-modi.github.io/Jquery-Theme-Switcher
