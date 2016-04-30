@@ -25,7 +25,7 @@
 .Skin-Switcher {
     width: 200px;
     height: 250px;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 100px;
     padding: 0px;
