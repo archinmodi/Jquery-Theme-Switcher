@@ -28,10 +28,10 @@ Jquery Theme Switcher( JTS ) is open source plugin.
 
 
 # Open-source license
-<hr>
 
 * The MIT License (MIT)
 * jquery.Theme.Switcher.css v1.0.0
+* * jquery.Theme.Switcher.js v1.0.0
 * @author Archin Modi <archinmodi@gmail.com>
 * Copyright (c) 2016 Archin modi
 
