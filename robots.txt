@@ -1,5 +1,4 @@
-User-Agent: *
-Disallow: 
-Allow: /archin-modi.github.io/
-
-Sitemap: http://archin-modi.github.io/Jquery-Theme-Switcher/sitemap.xml
+User-agent: *
+Allow: /
+Allow: /sitemap.htm
+Sitemap: http://archin-modi.github.io/sitemap.xml
