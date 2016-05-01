@@ -1,4 +1,4 @@
-# Jquery Theme Switcher
+# <img src="http://archin-modi.github.io/Jquery-Theme-Switcher/cfenl.png" width="300" height="200"> Jquery Theme Switcher
 jquery Theme Changer, selecet color and change your theme, easy to use, jquery theme changer powered by Archin Modi.
 
 # Welcome
