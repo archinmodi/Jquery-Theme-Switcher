@@ -21,5 +21,211 @@
 * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 * SOFTWARE.*/
+html{
+    background-color:white;
+}
+.box{  
+   margin:0 70px;   
+}
+.unbox {  
+   margin:0; 
+}
+.fixed{
+    position:fixed;
+    top:0;
+}
+body{
+    margin:0;
+    padding:0; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;        
+}
+.Skin-Switcher {
+    width: 270px;
+    min-height:200px;
+    position: fixed;    
+    right:-220px;
+    top: 130px;
+    padding: 0px; 
+    font-family: sans-serif;
+    font-size: 16px;      
+    z-index:96800;  
+}
+.BG_IMG{
+    clear:both;
+    margin:15px 0px 0px 0px;    
+}
+.BG_IMG img{
+    width:30px;
+    height:30px;
+    border-radius:30px;
+}
+#g94gnn30n{
+    font-size:8px;        
+}
+.Switcher-text{}
+.Switcher{}
+body{
+    margin:0;
+    padding:0;      
+}
+.Skin-Changer {
+    width: 210px;
+    float: right;
+    height: auto;
+    padding: 5px;
+    background-color: #fff;    
+    left: 1px;    
+    position: relative;
+    border-bottom: 1px solid #9E9E9E;
+    border-left: 1px solid #9E9E9E;
+    border-top:1px solid #9E9E9E;
+}
+.mc4840m8cm4 {
+    width: 100%;
+    height: 30px;
+    padding: 0px 0px 0px 12px;     
+    text-align: left;              
+}
+.mc4840m8cm4 strong{
+    float:left;
+}
+.mc4840m8cm4 div{
+    float:left;
+}
+.Skin-icon{
+    width:45px;
+    height:45px;        
+    background-color:black;       
+    float:right;  
+    left:2px;
+    border-top:1px solid #9E9E9E;
+    border-bottom:1px solid #9E9E9E;
+    border-left:1px solid #9E9E9E;
+    position:relative;                
+}
+.Skin-icon img{
+        margin: 11px;
+        width: 50%;
+        height: 50%;       
+    }
+.d0348889 {
+    padding: 3px;
+    clear:both;
+    text-align: left;
+    margin: 0px 0px 5px 10px; 
+       
+}
+#switcher li,#switcher2 li {
+    transition:all 1s ease;
+    border-radius: 30px;
+    list-style: none;
+    margin: 0px 12px 10px 0px;
+    width: 20px;
+    height: 20px;
+    float: left;    
+}
+#switcher li,#switcher2 li:hover{
+    cursor:pointer;
+}
+.g409utj09j3tj{
+    width:100%;
+    height:50px;
+}
+#switcher {
+    margin-top:0px;
+    margin-bottom:25px;    
+    padding: 12px;
+    max-height:30px;
+    min-height:0px;
+    width: 80%;    
+}
+.clearfix:after {
+clear:both;
+}
+.switch_section{
+    width:100%;
+    height:auto;
+    list-style:none;
+    font-size:1.1em;
+    margin:0 auto;
+    padding:10px 0px 0px 15px;
+}
+.switch_section li{
+    width:100%;
+    height:30px;
+}
+#switcher2 {
+    margin-top:0px;
+    padding: 12px 0px 0px 12px;
+    width: 100%;
+    height: 20px;
+}
+/*switcher*/
+.onoffswitch {
+    position: relative; width: 30px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+   left:140px;
+   top:-18px;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 15px; padding: 0; line-height: 15px;
+    border: 2px solid #CCCCCC; border-radius: 15px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 15px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 13px;
+    border: 2px solid #CCCCCC; border-radius: 15px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #49E845;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #49E845;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px; 
+}
 
-.Skin-Switcher{width:200px;height:250px;position:fixed;left:0;top:100px;padding:0px;color:#808080 !important;text-transform:uppercase}#Layout_Skin{width:100%;height:100%}#g94gnn30n{font-size:8px;font-family:Verdana}.bodyacd{padding:0px 100px 0px 100px}.bodyacd2{padding:0px 0px 0px 0px}.lay{box-shadow:0px 6px 40px -6px black}.lay2{box-shadow:0px 0px 0px 0px black}body{margin:0;padding:0;background-repeat:no-repeat;background-attachment:fixed;background-position:center}.Skin-Changer{width:150px;float:left;height:370px;padding:0px;border-radius:0px 0px 3px 0px}.mc4840m8cm4{width:140px;height:70px;padding:5px;color:#808080;font-family:Arial;font-size:15px;text-align:center;margin-top:30px}.Skin-icon{width:40px;height:40px;background-color:black;font-family:Verdana;color:white;float:left}.Skin-icon img{margin:10px;width:50%;height:50%;transition:all 0.1s ease-out;-webkit-animation-name:spinnerRotate;-webkit-animation-duration:3s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:linear;-moz-animation-name:spinnerRotate;-moz-animation-duration:3s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:linear;-ms-animation-name:spinnerRotate;-ms-animation-duration:3s;-ms-animation-iteration-count:infinite;-ms-animation-timing-function:linear}.Skin-icon img:hover{width:60%;height:60%;margin:9px}.d0348889{padding:3px;text-align:center;margin:15px 0px 0px 0px;font-family:Arial;font-size:15px}#switcher li,#switcher2 li{transition:all 1s ease;border-radius:1px;list-style:none;margin:10px 10px 0px 4px;width:25px;height:25px;float:left;border:3px solid #cfcaca}.g409utj09j3tj{width:100%;height:50px}#switcher{margin-top:0px;margin-bottom:25px;padding:10px;width:150px;height:100px}#switcher2{margin-top:0px;padding:10px;width:150px;height:20px}@-webkit-keyframes "spinnerRotate"{from{-webkit-transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);}}@-moz-keyframes "spinnerRotate"{from{-moz-transform:rotate(0deg);}to{-moz-transform:rotate(360deg);}}@-ms-keyframes spinnerRotate{from{-ms-transform:rotate(0deg)}to{-ms-transform:rotate(360deg)}}  .onoffswitch{margin-left:40px;position:relative;width:50px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}.onoffswitch-checkbox{display:none}.onoffswitch-label{display:block;overflow:hidden;cursor:pointer;height:20px;padding:0;line-height:20px;border:2px solid #B3B3B3;border-radius:20px;background-color:#FFFFFF;transition:background-color 0.3s ease-in}.onoffswitch-label:before{content:"";display:block;width:20px;margin:0px;background:#FFFFFF;position:absolute;top:0;bottom:0;right:28px;border:2px solid #B3B3B3;border-radius:20px;transition:all 0.3s ease-in 0s}.onoffswitch-checkbox:checked + .onoffswitch-label{background-color:#6EF59B}.onoffswitch-checkbox:checked + .onoffswitch-label,.onoffswitch-checkbox:checked + .onoffswitch-label:before{border-color:#6EF59B}.onoffswitch-checkbox:checked + .onoffswitch-label:before{right:0px}
+    /*responsiv media query*/
+@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 480px) and (orientation : portrait) {
+    /* CSS */
+}
+@media screen and (min-width: 320px) and (max-width: 480px), (min-device-width: 320px) and (max-device-width: 480px) and (orientation : landscape) {
+    /* CSS */
+}
+@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
+/* CSS */ 
+}
+@media screen and (min-width: 320px) and (max-width: 568px), (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) {
+/* CSS */ 
+}
+@media screen and (max-width: 360px), (min-device-width: 360px) and (max-device-width: 640px) and (orientation : portrait) {
+/* CSS */ 
+}
+@media screen and (min-width: 360px) and (max-width: 640px), (min-device-width: 360px) and (max-device-width: 640px) and (orientation : landscape) {
+/* CSS */ 
+}
+@media screen and (max-width: 600px), (min-device-width: 600px) and (max-device-width: 960px) and (orientation : portrait) {
+/* CSS */ 
+}
+@media screen and (min-width: 600px) and (max-width: 960px), (min-device-width: 600px) and (max-device-width: 960px) and (orientation : landscape) {
+/* CSS */ 
+}
+@media screen and (max-width: 768px), (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+/* CSS */ 
+}
+@media screen and (min-width: 768px) and (max-width: 1024px), (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
+/* CSS */ 
+}
