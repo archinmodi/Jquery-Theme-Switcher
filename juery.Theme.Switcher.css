@@ -31,7 +31,7 @@ html{
    margin:0; 
 }
 .fixed{
-    position:fixed;
+  position:fixed;
     top:0;
 }
 body{
@@ -45,7 +45,7 @@ body{
     width: 270px;
     min-height:200px;
     position: fixed;    
-    right:-220px;
+    right:-210px;
     top: 130px;
     padding: 0px; 
     font-family: sans-serif;
@@ -59,17 +59,14 @@ body{
 .BG_IMG img{
     width:30px;
     height:30px;
+    margin:0px 3px;
     border-radius:30px;
 }
 #g94gnn30n{
     font-size:8px;        
 }
-.Switcher-text{}
-.Switcher{}
-body{
-    margin:0;
-    padding:0;      
-}
+.Switcher-text{transition:all 1s ease-in-out}
+.Switcher{transition:all 0.5s ease-in-out}
 .Skin-Changer {
     width: 210px;
     float: right;
