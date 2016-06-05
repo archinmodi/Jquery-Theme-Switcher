@@ -24,7 +24,7 @@ Jquery Theme Switcher( JTS ) is open source plugin.
 
 # Demo
 
- http://archin-modi.github.io/Jquery-Theme-Switcher
+ http://www.jetline-ui.somee.com/Default/Theme_Switcher
 
 
 # Open-source license
