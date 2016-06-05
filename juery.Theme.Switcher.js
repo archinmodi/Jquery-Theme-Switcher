@@ -22,7 +22,6 @@
 * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 * SOFTWARE.*/
  
-
 ; (function (root, factory) {
 
     if (typeof define === 'function' && define.amd) {
@@ -59,7 +58,7 @@
         }
         create(null);
         Config: {
-            $('.' + Deafult.theme).attr('src', Default.Icon);
+            $('.' + Deafult.theme).attr('src', settings.Icon);
             var colorsHex = settings.color;
             var TCHex = settings.Text_color;
             var xid = document.getElementById(Deafult.DC);
@@ -241,4 +240,3 @@
     */
     return Jetline_TS;
 });
-
