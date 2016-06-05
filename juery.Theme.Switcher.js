@@ -22,4 +22,223 @@
 * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 * SOFTWARE.*/
  
- !function(e,t){"function"==typeof define&&define.amd?define(t):"object"==typeof exports?module.exports=t():e.Jetline_TS=t()}(this,function(){function e(e){$(".Switcher").css({"background-color":e}),localStorage.setItem("CSS",e)}function t(e){$(".Switcher-text").css({color:e}),localStorage.setItem("CSStxt",e)}function c(e){if(!e){var t=document.createElement("div");t.className="Skin-Switcher";var c=document.createElement("div");c.className="Skin-Changer";var a=document.createElement("ul");a.className="switch_section";var n=document.createElement("li"),o=document.createElement("small");o.appendChild(document.createTextNode("Box Layout")),n.appendChild(o);var l=document.createElement("div");l.className="onoffswitch";var i=document.createElement("input");i.type="checkbox",i.name="onoffswitch",i.id="myonoffswitch",i.className="onoffswitch-checkbox",l.appendChild(i);var r=document.createElement("label");r.htmlFor="myonoffswitch",r.className="onoffswitch-label",l.appendChild(r),n.appendChild(l),a.appendChild(n);var d=document.createElement("li"),m=document.createElement("small");m.appendChild(document.createTextNode("Fixed Header")),d.appendChild(m);var s=document.createElement("div");s.className="onoffswitch";var h=document.createElement("input");h.id="myonoffswitch2",h.name="onoffswitch",h.type="checkbox",h.className="onoffswitch-checkbox",s.appendChild(h);var u=document.createElement("label");u.htmlFor="myonoffswitch2",u.className="onoffswitch-label",s.appendChild(u),d.appendChild(s),a.appendChild(d),c.appendChild(a);var p=document.createElement("h4");p.className="d0348889",p.appendChild(document.createTextNode("Skin Colors")),c.appendChild(p);var f=document.createElement("ul");f.id="switcher",c.appendChild(f);var g=document.createElement("h4");g.className="d0348889 ",g.appendChild(document.createTextNode("Font Color")),c.appendChild(g);var w=document.createElement("ul");w.id="switcher2",c.appendChild(w);var C=document.createElement("div");C.className="mc4840m8cm4";var S=document.createElement("strong");S.appendChild(document.createTextNode("Background Pattern")),C.appendChild(S);var v=document.createElement("div");v.className="BG_IMG";var N=document.createElement("img");N.src="http://www.jetline-ui.somee.com/CND/Theme%20Switcher/BG-1.jpg",N.className=293879832,v.appendChild(N);var k=document.createElement("img");k.src="http://www.jetline-ui.somee.com/CND/Theme%20Switcher/BG-2.jpg",k.className=293879832,v.appendChild(k);var x=document.createElement("img");x.className=293879832,x.src="http://www.jetline-ui.somee.com/CND/Theme%20Switcher/BG-3.jpg",v.appendChild(x);var E=document.createElement("img");E.className=293879832,E.src="http://www.jetline-ui.somee.com/CND/Theme%20Switcher/BG-4.jpg",v.appendChild(E);var y=document.createElement("img");y.src="http://www.jetline-ui.somee.com/CND/Theme%20Switcher/BG-5.jpg",y.className=293879832,v.appendChild(y),C.appendChild(v),c.appendChild(C),t.appendChild(c);var b=document.createElement("div");b.style.backgroundColor="white",b.className="Skin-icon";var $=document.createElement("img");$.width=30,$.height=30,b.appendChild($),t.appendChild(b),document.body.appendChild(t)}}var a={};return a.version="0.2.0",a.status=null,a=function(a){var n=$.extend({color:["#FF0000","#FFFF00","#00FF00","#00FFFF","#0000FF"],Text_color:["#000000","#808080","#ff3"],Icon:"http://www.jetline-ui.somee.com/CND/Theme%20Switcher/Icon/Icon.png"},a),o={code:"395740730",tool:"395740731",pattern:"293879832",theme:"Skin-icon img",trigger:"click",TX:"switcher2",DC:"switcher",ARY:["Switcher","Switcher-text","Switcher-img"]};c(null),$("."+o.theme).attr("src",Default.Icon);for(var l=n.color,i=n.Text_color,r=document.getElementById(o.DC),d=0;d<l.length;d++)$(r).append("<li class='"+o.code+"' style='background-color:"+l[d]+"'></li>");for(var m=0;m<i.length;m++)$(document.getElementById(o.TX)).append("<li class='"+o.tool+"' style='background-color:"+i[m]+"'></li>");$(document.getElementsByClassName(Default.code)).on(Default.trigger,function(){e($(this).css("background-color"))}),$(document.getElementsByClassName(Default.tool)).on(Default.trigger,function(){t($(this).css("background-color"))}),$(document.getElementsByClassName(Default.pattern)).on(Default.trigger,function(){alert("under Construction!!!")}),$("#myonoffswitch").click(function(){this.checked?($("body").addClass("box"),localStorage.setItem("box","True")):($("body").removeClass("box"),localStorage.setItem("box","false"))}),$("#myonoffswitch2").click(function(){this.checked?(alert("under Construction!!!"),localStorage.setItem("fixed","True")):localStorage.setItem("fixed","false")});var s=Default.theme;$("."+s.substr(.9)).click(function(){$(".Skin-Switcher").hasClass("active")?$(".Skin-Switcher").animate({right:"-220px"},function(){$(".Skin-Switcher").toggleClass("active")}):$(".Skin-Switcher").animate({right:"0px"},function(){$(".Skin-Switcher").toggleClass("active")})});var h=localStorage.getItem("box"),u=localStorage.getItem("fixed");if("True"==h?($("body").attr("class","box"),$("#myonoffswitch").attr("checked","True")):($("#myonoffswitch").attr("unchecked"),$("body").removeClass("class","box")),"True"==u?$("#myonoffswitch2").attr("checked","True"):$("#myonoffswitch").attr("unchecked"),"undefined"!=typeof Storage){var p=localStorage.getItem("CSS"),f=localStorage.getItem("CSStxt");e(p),t(f)}else alert("Skin Not Working...");return this}});
+
+; (function (root, factory) {
+
+    if (typeof define === 'function' && define.amd) {
+        define(factory);
+    } else if (typeof exports === 'object') {
+        module.exports = factory();
+    } else {
+        root.Jetline_TS = factory();
+    }
+
+})(this, function () {
+    var Jetline_TS = {};
+
+    Jetline_TS.version = '0.2.0';
+
+    Jetline_TS.status = null;
+
+    Jetline_TS = function (option) {
+
+        var settings = $.extend({
+            // These are the defaults.
+            color: ['#FF0000', '#FFFF00', '#00FF00', '#00FFFF', '#0000FF'],
+            Text_color: ['#000000', '#808080', '#ff3'],
+            Icon: 'http://www.jetline-ui.somee.com/CND/Theme%20Switcher/Icon/Icon.png'
+        }, option);
+        var Deafult = {
+            code: '395740730',
+            tool: '395740731',
+            pattern: '293879832',
+            theme: 'Skin-icon img',
+            trigger: 'click',
+            TX: 'switcher2',
+            DC: 'switcher'
+        }
+        create(null);
+        Config: {
+            $('.' + Deafult.theme).attr('src', Default.Icon);
+            var colorsHex = settings.color;
+            var TCHex = settings.Text_color;
+            var xid = document.getElementById(Deafult.DC);
+            for (var i = 0; i < colorsHex.length; i++) {
+
+                $(xid).append("<li class='" + Deafult.code + "' style='background-color:" + colorsHex[i] + "'></li>");
+            }/*  */
+            for (var k = 0; k < TCHex.length; k++) {
+                $(document.getElementById(Deafult.TX)).append("<li class='" + Deafult.tool + "' style='background-color:" + TCHex[k] + "'></li>");
+            }
+        }
+        $(document.getElementsByClassName(Default.code)).on(Default.trigger, function () {
+
+        });
+        return this;
+    };
+    /*
+        create theme switcher 
+                &
+          configuration 
+    */
+    function create(value) {
+        if (!value) {
+
+            var div_0 = document.createElement('div');
+            div_0.className = "Skin-Switcher";
+
+            var div_1 = document.createElement('div');
+            div_1.className = "Skin-Changer";
+
+            var ul_0 = document.createElement('ul');
+            ul_0.className = "switch_section";
+
+            var li_0 = document.createElement('li');
+
+            var small_0 = document.createElement('small');
+            small_0.appendChild(document.createTextNode("Box Layout"));
+            li_0.appendChild(small_0);
+
+
+            var div_2 = document.createElement('div');
+            div_2.className = "onoffswitch";
+
+            var input_myonoffswitch = document.createElement('input');
+            input_myonoffswitch.type = "checkbox";
+            input_myonoffswitch.name = "onoffswitch";
+            input_myonoffswitch.id = "myonoffswitch";
+            input_myonoffswitch.className = "onoffswitch-checkbox";
+            div_2.appendChild(input_myonoffswitch);
+
+
+            var label_0 = document.createElement('label');
+            label_0.htmlFor = "myonoffswitch";
+            label_0.className = "onoffswitch-label";
+            div_2.appendChild(label_0);
+
+            li_0.appendChild(div_2);
+
+            ul_0.appendChild(li_0);
+
+
+            var li_1 = document.createElement('li');
+
+            var small_1 = document.createElement('small');
+            small_1.appendChild(document.createTextNode("Fixed Header"));
+            li_1.appendChild(small_1);
+
+
+            var div_3 = document.createElement('div');
+            div_3.className = "onoffswitch";
+
+            var input_myonoffswitch2 = document.createElement('input');
+            input_myonoffswitch2.id = "myonoffswitch2";
+            input_myonoffswitch2.name = "onoffswitch";
+            input_myonoffswitch2.type = "checkbox";
+            input_myonoffswitch2.className = "onoffswitch-checkbox";
+            div_3.appendChild(input_myonoffswitch2);
+
+
+            var label_1 = document.createElement('label');
+            label_1.htmlFor = "myonoffswitch2";
+            label_1.className = "onoffswitch-label";
+            div_3.appendChild(label_1);
+
+            li_1.appendChild(div_3);
+
+            ul_0.appendChild(li_1);
+
+            div_1.appendChild(ul_0);
+
+
+            var h4_0 = document.createElement('h4');
+            h4_0.className = "d0348889";
+            h4_0.appendChild(document.createTextNode("Skin Colors"));
+            div_1.appendChild(h4_0);
+
+
+            var ul_switcher = document.createElement('ul');
+            ul_switcher.id = "switcher";
+            div_1.appendChild(ul_switcher);
+
+
+            var h4_1 = document.createElement('h4');
+            h4_1.className = "d0348889 ";
+            h4_1.appendChild(document.createTextNode("Font Color"));
+            div_1.appendChild(h4_1);
+
+
+            var ul_switcher2 = document.createElement('ul');
+            ul_switcher2.id = "switcher2";
+            div_1.appendChild(ul_switcher2);
+
+
+            var div_4 = document.createElement('div');
+            div_4.className = "mc4840m8cm4";
+
+            var strong_0 = document.createElement('strong');
+            strong_0.appendChild(document.createTextNode("Background Pattern"));
+            div_4.appendChild(strong_0);
+
+
+            var div_5 = document.createElement('div');
+            div_5.className = "BG_IMG";
+
+            var img_0 = document.createElement('img');
+            img_0.src = "http://www.jetline-ui.somee.com/CND/Theme%20Switcher/BG-1.jpg";
+            img_0.className = 293879832;
+            div_5.appendChild(img_0);
+
+
+            var img_1 = document.createElement('img');
+            img_1.src = "http://www.jetline-ui.somee.com/CND/Theme%20Switcher/BG-2.jpg";
+            img_1.className = 293879832;
+            div_5.appendChild(img_1);
+
+
+            var img_2 = document.createElement('img');
+            img_2.className = 293879832;
+            img_2.src = "http://www.jetline-ui.somee.com/CND/Theme%20Switcher/BG-3.jpg";
+            div_5.appendChild(img_2);
+
+
+            var img_3 = document.createElement('img');
+            img_3.className = 293879832;
+            img_3.src = "http://www.jetline-ui.somee.com/CND/Theme%20Switcher/BG-4.jpg";
+            div_5.appendChild(img_3);
+
+
+            var img_4 = document.createElement('img');
+            img_4.src = "http://www.jetline-ui.somee.com/CND/Theme%20Switcher/BG-5.jpg";
+            img_4.className = 293879832;
+            div_5.appendChild(img_4);
+
+            div_4.appendChild(div_5);
+
+            div_1.appendChild(div_4);
+
+            div_0.appendChild(div_1);
+
+
+            var div_6 = document.createElement('div');
+            div_6.style.backgroundColor = "white";
+            div_6.className = "Skin-icon";
+
+            var img_5 = document.createElement('img');
+            img_5.width = 30;
+            img_5.height = 30;
+            div_6.appendChild(img_5);
+
+            div_0.appendChild(div_6);
+
+            document.body.appendChild(div_0);
+
+
+        }
+    }
+    /*
+        configuration Default settings 
+    */
+    return Jetline_TS;
+});
+
