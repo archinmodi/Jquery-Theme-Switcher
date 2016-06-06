@@ -22,7 +22,6 @@
 * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 * SOFTWARE.*/
  
- 
         ; (function (root, factory) {
 
             if (typeof define === 'function' && define.amd) {
@@ -38,17 +37,17 @@
 
             Jetline_TS.version = '0.2.0';
 
-            Jetline_TS.status = null;           
+            Jetline_TS.status = null;
 
             Jetline_TS = function (option) {
 
                 var settings = $.extend({
                     // These are the defaults.
-                    color:['#FF0000','#FFFF00','#00FF00','#00FFFF','#0000FF'],
-                    Text_color: ['#000000','#808080','#ff3'],
-                    Icon: 'http://www.jetline-ui.somee.com/CND/Theme%20Switcher/Icon/Icon.png'                   
+                    color: ['#FF0000', '#FFFF00', '#00FF00', '#00FFFF', '#0000FF'],
+                    Text_color: ['#000000', '#808080', '#ff3'],
+                    Icon: 'http://www.jetline-ui.somee.com/CND/Theme%20Switcher/Icon/Icon.png'
                 }, option);
-                var Jvar ={
+                var Jvar = {
                     code: '395740730',
                     tool: '395740731',
                     pattern: '293879832',
@@ -56,10 +55,13 @@
                     trigger: 'click',
                     TX: 'switcher2',
                     DC: 'switcher',
-                    ARY:['Switcher','Switcher-text','Switcher-img']
+                    ARY: ['Switcher', 'Switcher-text', 'Switcher-img']
                 };
                 create(null);
-                _Config: {
+                _Config: {                    
+                    $('.Skin-Switcher').css({
+                        'right': '-' + $('.Skin-Changer').outerWidth() + 'px'
+                    });
                     $('.' + Jvar.theme).attr('src', settings.Icon);
                     var colorsHex = settings.color;
                     var TCHex = settings.Text_color;
@@ -71,49 +73,49 @@
                     for (var k = 0; k < TCHex.length; k++) {
                         $(document.getElementById(Jvar.TX)).append("<li class='" + Jvar.tool + "' style='background-color:" + TCHex[k] + "'></li>");
                     }
-                };              
-                    $(document.getElementsByClassName(Jvar.code)).on(Jvar.trigger, function () {
-                        switchcss($(this).css('background-color'));
-                    });
-                    $(document.getElementsByClassName(Jvar.tool)).on(Jvar.trigger, function () {
-                        switchtxt($(this).css('background-color'));
-                    });
-                    $(document.getElementsByClassName(Jvar.pattern)).on(Jvar.trigger, function () {
-                        alert('under Construction!!!');
-                    });
-                    $('#myonoffswitch').click(function () {      /* box Switch*/
-                        if (this.checked) {
-                            $('body').addClass('box');
-                            localStorage.setItem("box", "True");
-                        }
-                        else {
-                            $('body').removeClass('box');
-                            localStorage.setItem("box", "false");
-                        }
-                    });
-                    $('#myonoffswitch2').click(function () {      /* box Switch*/
-                        if (this.checked) {
-                            alert('under Construction!!!')
-                            localStorage.setItem("fixed", "True");
-                        }
-                        else {
+                };
+                $(document.getElementsByClassName(Jvar.code)).on(Jvar.trigger, function () {
+                    switchcss($(this).css('background-color'));
+                });
+                $(document.getElementsByClassName(Jvar.tool)).on(Jvar.trigger, function () {
+                    switchtxt($(this).css('background-color'));
+                });
+                $(document.getElementsByClassName(Jvar.pattern)).on(Jvar.trigger, function () {
+                    alert('under Construction!!!');
+                });
+                $('#myonoffswitch').click(function () {      /* box Switch*/
+                    if (this.checked) {
+                        $('body').addClass('box');
+                        localStorage.setItem("box", "True");
+                    }
+                    else {
+                        $('body').removeClass('box');
+                        localStorage.setItem("box", "false");
+                    }
+                });
+                $('#myonoffswitch2').click(function () {      /* box Switch*/
+                    if (this.checked) {
+                        alert('under Construction!!!')
+                        localStorage.setItem("fixed", "True");
+                    }
+                    else {
 
-                            localStorage.setItem("fixed", "false");
-                        }
-                    });
-                    var bj = Jvar.theme;              
-                    $('.' + bj.substr(0.9)||'.'+bj).click(function () {
-                        if ($('.Skin-Switcher').hasClass("active")) {
-                            $('.Skin-Switcher').animate({ "right": "-" + $('.Skin-Changer').outerWidth() + "px" }, function () {
-                                $('.Skin-Switcher').toggleClass("active");
-                            });
-                        } else {
-                            $('.Skin-Switcher').animate({ "right": "0px" }, function () {
-                                $('.Skin-Switcher').toggleClass("active");
-                            });
-                        }
-                    });             
-                _hasload: {                                                           
+                        localStorage.setItem("fixed", "false");
+                    }
+                });
+                var bj = Jvar.theme;
+                $('.' + bj.substr(0.9) || '.' + bj).click(function () {
+                    if ($('.Skin-Switcher').hasClass("active")) {
+                        $('.Skin-Switcher').animate({ "right": "-" + $('.Skin-Changer').outerWidth() + "px" }, function () {
+                            $('.Skin-Switcher').toggleClass("active");
+                        });
+                    } else {
+                        $('.Skin-Switcher').animate({ "right": "0px" }, function () {
+                            $('.Skin-Switcher').toggleClass("active");
+                        });
+                    }
+                });
+                _hasload: {
                     var btnswtch = localStorage.getItem("box");
                     var btnswtch2 = localStorage.getItem("fixed");
                     if (btnswtch == "True") {
@@ -143,7 +145,7 @@
                     }
                 }
                 return this;
-            };            
+            };
             /*
                 create theme switcher 
                         &
@@ -151,15 +153,14 @@
             */
             function switchcss(cls) {
                 $('.Switcher').css({ 'background-color': cls });
-                localStorage.setItem("CSS", cls);                
+                localStorage.setItem("CSS", cls);
             }
             function switchtxt(clstxt) {
                 $('.Switcher-text').css({ 'color': clstxt });
-                localStorage.setItem("CSStxt", clstxt);                
+                localStorage.setItem("CSStxt", clstxt);
             }
             function create(value) {
-                if(!value)
-                {
+                if (!value) {
 
                     var div_0 = document.createElement('div');
                     div_0.className = "Skin-Switcher";
@@ -311,10 +312,10 @@
                     document.body.appendChild(div_0);
 
 
-                }                
+                }
             }
             /*
                 configuration Default settings 
-            */                   
+            */
             return Jetline_TS;
         });
