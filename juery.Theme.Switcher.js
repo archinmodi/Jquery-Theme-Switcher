@@ -22,7 +22,8 @@
 * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 * SOFTWARE.*/
  
- ; (function (root, factory) {
+ 
+        ; (function (root, factory) {
 
             if (typeof define === 'function' && define.amd) {
                 define(factory);
@@ -103,7 +104,7 @@
                     var bj = Jvar.theme;              
                     $('.' + bj.substr(0.9)||'.'+bj).click(function () {
                         if ($('.Skin-Switcher').hasClass("active")) {
-                            $('.Skin-Switcher').animate({ "right": "-" + 22 * 10 + "px" }, function () {
+                            $('.Skin-Switcher').animate({ "right": "-" + $('.Skin-Changer').outerWidth() + "px" }, function () {
                                 $('.Skin-Switcher').toggleClass("active");
                             });
                         } else {
@@ -112,7 +113,7 @@
                             });
                         }
                     });             
-                _hasload: {
+                _hasload: {                                                           
                     var btnswtch = localStorage.getItem("box");
                     var btnswtch2 = localStorage.getItem("fixed");
                     if (btnswtch == "True") {
