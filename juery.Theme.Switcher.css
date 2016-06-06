@@ -44,8 +44,7 @@ body{
 .Skin-Switcher {
     width: 270px;
     min-height:200px;
-    position: fixed;    
-    right:-220px;
+    position: fixed;      
     top: 130px;
     padding: 0px; 
     font-family: sans-serif;
