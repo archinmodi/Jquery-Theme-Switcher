@@ -11,12 +11,12 @@ Jquery Theme Switcher( JTS ) is open source plugin.
  
         &#60;script type="text/javascript"&#62;                      
             $(document).ready(function () {
-                $('body').Archin({
-                    backgroundColor: "White",
-                    TextColor: 'Black',
-                    ButtonbackgroundColor: 'white',
-                    BoxBGimages: 'http://www.psdgraphics.com/file/light-brown-floral-pattern.jpg'
-                });              
+              Jetline_TS({
+                  color: ['#FF0000', '#FFFF00', '#00FF00', '#00FFFF', '#0000FF'],
+                    Text_color: ['#000000', '#808080', '#ff3'],
+                    Icon: '/icon/image/path..'
+                });
+                           
             });
         &#60;/script&#62;
         
