@@ -7,7 +7,19 @@ This jquery plugin is Developed by Archin modi. Jquery Theme Switcher easy to us
 Jquery Theme Switcher( JTS ) is open source plugin. 
 
 # Example :
-<script src="https://gist.github.com/Archin-modi/483c42b2c4db29d5219399255178304d.js"></script>
+<pre>
+ 
+        &#60;script type="text/javascript"&#62;                      
+            $(document).ready(function () {
+               Jetline_TS({
+                   color: ['Color-1', 'Color-2', 'Color-3', 'Color-4', 'Color-n...'],
+                   Text_color: ['Color-1', 'Color-2', 'Color-3' 'Color-n...'],
+                   Icon: '/icon/image/path..'
+               });
+            });
+        &#60;/script&#62;
+        
+</pre>
 
 # Demo
 
