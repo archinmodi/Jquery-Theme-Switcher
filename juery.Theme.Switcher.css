@@ -135,7 +135,7 @@ body{
     padding: 12px;
     max-height:30px;
     min-height:0px;
-    width: 80%;    
+    width: 100%;    
 }
 .clearfix:after {
 clear:both;
