@@ -1,10 +1,24 @@
 # Jetline UI Theme Switcher
-
-## Introduction
 This jquery plugin is Developed by Archin modi. Jquery Theme Switcher easy to use and easy to step up.
 Jquery Theme Switcher( JTS ) is open source plugin. 
 
-## Usage
+### Requirements
+jquery version 2.1.4
+
+### Installation
+Describe how to install your program. Be precise and give examples. Don't assume your users know how to clone from my github repo. Keep in mind that some of your users may be completely unskilled in system administration or software development.
+
+## Basic Usage
+<pre>
+ 
+        &#60;script type="text/javascript"&#62;                      
+            $(document).ready(function () {
+               Jetline_TS();
+            });
+        &#60;/script&#62;
+        
+</pre>
+## Advanced usage
 <pre>
  
         &#60;script type="text/javascript"&#62;                      
@@ -18,12 +32,6 @@ Jquery Theme Switcher( JTS ) is open source plugin.
         &#60;/script&#62;
         
 </pre>
-
-### Requirements
-jquery version 2.1.4
-
-### Installation
-Describe how to install your program. Be precise and give examples. Don't assume your users know how to clone from my github repo. Keep in mind that some of your users may be completely unskilled in system administration or software development.
 
 ##Documentation
 It just take seconds to install and use JT theme switcher! <a href="">Read the documentation ➫</a>
