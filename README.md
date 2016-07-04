@@ -38,6 +38,10 @@ It just take seconds to install and use JT theme switcher! <a href="">Read the d
 
 ## Developer
 Developed by Archin Modi, <a href="http://www.jetline-ui.somee.com/">Jetline UI</a>
+  <ul>
+<li><a href="//twitter.com/modiarchin">@modiarchin</a></li>
+<li><a href="//github.com/Archin-modi">Github Profile</a></li>
+</ul>
 
 
 ## License
