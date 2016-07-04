@@ -1,12 +1,10 @@
-# Jquery Theme Switcher
-jquery Theme Changer, selecet color and change your theme, easy to use, jquery theme changer powered by Archin Modi.
+# Jetline UI Theme Switcher
 
-# Welcome
-
+## Introduction
 This jquery plugin is Developed by Archin modi. Jquery Theme Switcher easy to use and easy to step up.
 Jquery Theme Switcher( JTS ) is open source plugin. 
 
-# Example :
+## Usage
 <pre>
  
         &#60;script type="text/javascript"&#62;                      
@@ -21,17 +19,20 @@ Jquery Theme Switcher( JTS ) is open source plugin.
         
 </pre>
 
-# Demo
+### Requirements
+jquery version 2.1.4
 
- http://www.jetline-ui.somee.com/Theme_Switcher/Get_Start
+### Installation
+Describe how to install your program. Be precise and give examples. Don't assume your users know how to clone from my github repo. Keep in mind that some of your users may be completely unskilled in system administration or software development.
 
+## Credits
+Sometimes also called Authors, this is the list of project contributors.
 
-# Open-source license
-
+## License
 * The MIT License (MIT)
 * jquery.Theme.Switcher.css v0.2.0
 * jquery.Theme.Switcher.js v0.2.0
-* @author Archin Modi <archinmodi@gmail.com>
+* @author Archin Modi <jetlineui@gmail.com>
 * Copyright (c) 2016 Archin modi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
