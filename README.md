@@ -11,16 +11,15 @@ Describe how to install your program. Be precise and give examples. Don't assume
 ## Basic Usage
 
   * jquery
-<pre>
-
+```javascript
             $(document).ready(function () {
                Jetline_TS();
             });
-        
-</pre>
+ ```
 ## Advanced usage
-<pre>
- 
+
+  *jquery
+  ```javascript
             $(document).ready(function () {
                Jetline_TS({
                    color: ['Color-1', 'Color-2', 'Color-3', 'Color-4', 'Color-n...'],
@@ -28,8 +27,7 @@ Describe how to install your program. Be precise and give examples. Don't assume
                    Icon: '/icon/image/path..'
                });
             });
-        
-</pre>
+```
 
 ##Documentation
 It just take seconds to install and use JT theme switcher! <a href="">Read the documentation ➫</a>
