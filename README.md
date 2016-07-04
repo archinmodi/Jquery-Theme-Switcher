@@ -5,8 +5,6 @@ Jquery Theme Switcher( JTS ) is open source plugin.
 ### Requirements
 jquery version 2.1.4
 
-/*### Installation
-Describe how to install your program. Be precise and give examples. Don't assume your users know how to clone from my github repo. Keep in mind that some of your users may be completely unskilled in system administration or software development.*/
 
 ## Basic Usage
 
