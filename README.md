@@ -9,19 +9,18 @@ jquery version 2.1.4
 Describe how to install your program. Be precise and give examples. Don't assume your users know how to clone from my github repo. Keep in mind that some of your users may be completely unskilled in system administration or software development.
 
 ## Basic Usage
+
+  * jquery
 <pre>
- 
-        &#60;script type="text/javascript"&#62;                      
+
             $(document).ready(function () {
                Jetline_TS();
             });
-        &#60;/script&#62;
         
 </pre>
 ## Advanced usage
 <pre>
  
-        &#60;script type="text/javascript"&#62;                      
             $(document).ready(function () {
                Jetline_TS({
                    color: ['Color-1', 'Color-2', 'Color-3', 'Color-4', 'Color-n...'],
@@ -29,7 +28,6 @@ Describe how to install your program. Be precise and give examples. Don't assume
                    Icon: '/icon/image/path..'
                });
             });
-        &#60;/script&#62;
         
 </pre>
 
