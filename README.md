@@ -36,8 +36,9 @@ Describe how to install your program. Be precise and give examples. Don't assume
 ##Documentation
 It just take seconds to install and use JT theme switcher! <a href="">Read the documentation ➫</a>
 
-## Credits
-Sometimes also called Authors, this is the list of project contributors.
+## Developer
+Developed by Archin Modi, <a href="http://www.jetline-ui.somee.com/">Jetline UI</a>
+
 
 ## License
 * The MIT License (MIT)
