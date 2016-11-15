@@ -1,4 +1,4 @@
-# Jetline UI Theme Switcher
+# PaperBird Theme Switcher
 This jquery plugin is Developed by Archin modi. Jquery Theme Switcher easy to use and easy to step up.
 Jquery Theme Switcher( JTS ) is open source plugin. 
 
@@ -27,7 +27,7 @@ jquery version 2.1.4
 ```
 
 ## Developer
-Developed by Archin Modi, <a href="http://www.jetline-ui.somee.com/">Jetline UI</a>
+Developed by Archin Modi
   <ul>
 <li><a href="//twitter.com/modiarchin">@modiarchin</a></li>
 <li><a href="//github.com/Archin-modi">Github Profile</a></li>
@@ -38,7 +38,7 @@ Developed by Archin Modi, <a href="http://www.jetline-ui.somee.com/">Jetline UI<
 * The MIT License (MIT)
 * jquery.Theme.Switcher.css v0.2.0
 * jquery.Theme.Switcher.js v0.2.0
-* @author Archin Modi <jetlineui@gmail.com>
+* @author Archin Modi <archinmodi@gmail.com>
 * Copyright (c) 2016 Archin modi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
