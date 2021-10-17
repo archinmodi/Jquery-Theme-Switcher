@@ -29,8 +29,8 @@ jquery version 2.1.4
 ## Developer
 Developed by Archin Modi
   <ul>
-<li><a href="//twitter.com/modiarchin">@modiarchin</a></li>
-<li><a href="//github.com/Archin-modi">Github Profile</a></li>
+<li><a href="//twitter.com/archinmodi">@modiarchin</a></li>
+<li><a href="//github.com/archinmodi">Github Profile</a></li>
 </ul>
 
 
@@ -38,7 +38,7 @@ Developed by Archin Modi
 * The MIT License (MIT)
 * jquery.Theme.Switcher.css v0.2.0
 * jquery.Theme.Switcher.js v0.2.0
-* @author Archin Modi <archinmodi@gmail.com>
+* @author Archin Modi
 * Copyright (c) 2016 Archin modi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
